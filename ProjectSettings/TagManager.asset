@@ -4,11 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - "Ye\u015Fil"
   - Diz
-  - "K\u0131rm\u0131z\u0131"
-  - Mavi
   - "s\u0131f\u0131r"
+  - Green
+  - Red
+  - Blue
+  - DizG
+  - DizR
+  - DizB
   layers:
   - Default
   - TransparentFX
@@ -16,8 +19,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Karakter
-  - 
+  - Character
+  - cube
   - 
   - 
   - 

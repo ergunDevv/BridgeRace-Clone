@@ -123,7 +123,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: b194075c54ead4227bf9caaec4c5c551, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: b16284eeccda0884e9d6ca2321d6779b, type: 2}
 --- !u!1 &14461839
 GameObject:
   m_ObjectHideFlags: 0
@@ -136,9 +136,9 @@ GameObject:
   - component: {fileID: 14461842}
   - component: {fileID: 14461841}
   - component: {fileID: 14461840}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (11)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,9 +344,9 @@ GameObject:
   - component: {fileID: 35606543}
   - component: {fileID: 35606542}
   - component: {fileID: 35606541}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (13)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -441,8 +441,8 @@ GameObject:
   - component: {fileID: 42150827}
   - component: {fileID: 42150826}
   - component: {fileID: 42150825}
-  - component: {fileID: 42150824}
   - component: {fileID: 42150823}
+  - component: {fileID: 42150829}
   m_Layer: 0
   m_Name: "K\u0131rm\u0131z\u0131 Karakter"
   m_TagString: Untagged
@@ -472,18 +472,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &42150824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42150822}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae63b225cb2e3438ba07d3c3744a05cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &42150825
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -551,6 +539,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42150829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42150822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6390e8120838a734da3d7f4217135193, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetsParent: {fileID: 616306727}
+  targets: []
+  collect_Main_Parrent: {fileID: 1711356358}
+  prev_Object: {fileID: 702184608}
+  cubes: []
+  ropes:
+  - {fileID: 254106694}
+  - {fileID: 1045559333}
+  - {fileID: 2119964325}
+  radius: 2
+  character_Enum: 0
 --- !u!1 &44878602
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,9 +574,9 @@ GameObject:
   - component: {fileID: 44878605}
   - component: {fileID: 44878604}
   - component: {fileID: 44878603}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (4)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -660,9 +671,9 @@ GameObject:
   - component: {fileID: 55865744}
   - component: {fileID: 55865743}
   - component: {fileID: 55865742}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (21)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -868,9 +879,9 @@ GameObject:
   - component: {fileID: 99253197}
   - component: {fileID: 99253196}
   - component: {fileID: 99253195}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (40)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -965,9 +976,9 @@ GameObject:
   - component: {fileID: 102818902}
   - component: {fileID: 102818901}
   - component: {fileID: 102818900}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (28)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1062,9 +1073,9 @@ GameObject:
   - component: {fileID: 108452444}
   - component: {fileID: 108452443}
   - component: {fileID: 108452442}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (5)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1159,9 +1170,9 @@ GameObject:
   - component: {fileID: 119919737}
   - component: {fileID: 119919736}
   - component: {fileID: 119919735}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (32)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1256,9 +1267,9 @@ GameObject:
   - component: {fileID: 125863849}
   - component: {fileID: 125863848}
   - component: {fileID: 125863847}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (39)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1353,9 +1364,9 @@ GameObject:
   - component: {fileID: 128941126}
   - component: {fileID: 128941125}
   - component: {fileID: 128941124}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (7)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1819,9 +1830,9 @@ GameObject:
   - component: {fileID: 197035677}
   - component: {fileID: 197035676}
   - component: {fileID: 197035675}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (36)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1916,9 +1927,9 @@ GameObject:
   - component: {fileID: 205947445}
   - component: {fileID: 205947444}
   - component: {fileID: 205947443}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (24)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2013,9 +2024,9 @@ GameObject:
   - component: {fileID: 251047536}
   - component: {fileID: 251047535}
   - component: {fileID: 251047534}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (22)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2833,9 +2844,9 @@ GameObject:
   - component: {fileID: 420757262}
   - component: {fileID: 420757261}
   - component: {fileID: 420757260}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (33)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3184,9 +3195,9 @@ GameObject:
   - component: {fileID: 439912977}
   - component: {fileID: 439912976}
   - component: {fileID: 439912975}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (26)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3503,9 +3514,9 @@ GameObject:
   - component: {fileID: 443681102}
   - component: {fileID: 443681101}
   - component: {fileID: 443681100}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (23)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3711,9 +3722,9 @@ GameObject:
   - component: {fileID: 476218405}
   - component: {fileID: 476218404}
   - component: {fileID: 476218403}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (37)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3808,9 +3819,9 @@ GameObject:
   - component: {fileID: 484131875}
   - component: {fileID: 484131874}
   - component: {fileID: 484131873}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (42)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4016,9 +4027,9 @@ GameObject:
   - component: {fileID: 542009237}
   - component: {fileID: 542009236}
   - component: {fileID: 542009235}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (36)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4113,9 +4124,9 @@ GameObject:
   - component: {fileID: 552506122}
   - component: {fileID: 552506121}
   - component: {fileID: 552506120}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (14)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4529,9 +4540,9 @@ GameObject:
   - component: {fileID: 601586062}
   - component: {fileID: 601586061}
   - component: {fileID: 601586060}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (20)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4900,9 +4911,9 @@ GameObject:
   - component: {fileID: 642635167}
   - component: {fileID: 642635166}
   - component: {fileID: 642635165}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (35)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5108,9 +5119,9 @@ GameObject:
   - component: {fileID: 653393855}
   - component: {fileID: 653393854}
   - component: {fileID: 653393853}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (10)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5538,9 +5549,9 @@ GameObject:
   - component: {fileID: 674624708}
   - component: {fileID: 674624707}
   - component: {fileID: 674624706}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (18)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5826,9 +5837,9 @@ GameObject:
   - component: {fileID: 730313887}
   - component: {fileID: 730313886}
   - component: {fileID: 730313885}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (40)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5923,9 +5934,9 @@ GameObject:
   - component: {fileID: 737107118}
   - component: {fileID: 737107117}
   - component: {fileID: 737107116}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (38)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6242,9 +6253,9 @@ GameObject:
   - component: {fileID: 789783671}
   - component: {fileID: 789783670}
   - component: {fileID: 789783669}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (43)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6450,9 +6461,9 @@ GameObject:
   - component: {fileID: 813705363}
   - component: {fileID: 813705362}
   - component: {fileID: 813705361}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (22)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6646,6 +6657,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851690302}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &867499847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867499851}
+  - component: {fileID: 867499850}
+  - component: {fileID: 867499849}
+  - component: {fileID: 867499848}
+  m_Layer: 7
+  m_Name: Green_Generation
+  m_TagString: Green
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &867499848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867499847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &867499849
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867499847}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 65a1d802e4849411caaeb20562f776e5, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &867499850
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867499847}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &867499851
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867499847}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -5.28, y: 0.123, z: 5.23}
+  m_LocalScale: {x: 0.27316892, y: 0.25699282, z: 0.46153423}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &887254774
 GameObject:
   m_ObjectHideFlags: 0
@@ -7213,9 +7321,9 @@ GameObject:
   - component: {fileID: 910177915}
   - component: {fileID: 910177914}
   - component: {fileID: 910177913}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (26)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7517,7 +7625,7 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7583,15 +7691,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.23256621, y: -0, z: -0, w: 0.97258055}
-  m_LocalPosition: {x: 0, y: 13.86, z: -16.4}
+  m_LocalRotation: {x: 0.23666856, y: 0, z: 0, w: 0.9715905}
+  m_LocalPosition: {x: -0.0015560744, y: 4.973, z: -7.47339}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 26.896002, y: 0, z: 0}
---- !u!114 &963194229
+  m_LocalEulerAnglesHint: {x: 27.38, y: 0, z: 0}
+--- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7600,11 +7708,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b6f27c055cfb9844fb4cb899f52ffb8e, type: 3}
+  m_Script: {fileID: 11500000, guid: dceaa1e3f52288e4696b7b574c425d82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8145114212001553481}
-  offset: {x: 0, y: 13.86, z: -16.4}
+  offset: {x: 0, y: 7, z: -10}
   lerpValue: 2
 --- !u!1 &977690455
 GameObject:
@@ -8062,9 +8170,9 @@ GameObject:
   - component: {fileID: 1002677439}
   - component: {fileID: 1002677438}
   - component: {fileID: 1002677437}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (45)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8159,9 +8267,9 @@ GameObject:
   - component: {fileID: 1019088502}
   - component: {fileID: 1019088501}
   - component: {fileID: 1019088500}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (28)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8410,9 +8518,9 @@ GameObject:
   - component: {fileID: 1046919706}
   - component: {fileID: 1046919705}
   - component: {fileID: 1046919704}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (41)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8729,9 +8837,9 @@ GameObject:
   - component: {fileID: 1090912856}
   - component: {fileID: 1090912855}
   - component: {fileID: 1090912854}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (31)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8826,9 +8934,9 @@ GameObject:
   - component: {fileID: 1102325245}
   - component: {fileID: 1102325244}
   - component: {fileID: 1102325243}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (44)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9034,9 +9142,9 @@ GameObject:
   - component: {fileID: 1107798591}
   - component: {fileID: 1107798590}
   - component: {fileID: 1107798589}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (12)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9131,9 +9239,9 @@ GameObject:
   - component: {fileID: 1109813921}
   - component: {fileID: 1109813920}
   - component: {fileID: 1109813919}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (47)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9228,9 +9336,9 @@ GameObject:
   - component: {fileID: 1134022987}
   - component: {fileID: 1134022986}
   - component: {fileID: 1134022985}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (9)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9436,9 +9544,9 @@ GameObject:
   - component: {fileID: 1176365046}
   - component: {fileID: 1176365045}
   - component: {fileID: 1176365044}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (32)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9521,6 +9629,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1176365042}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1178023218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1178023222}
+  - component: {fileID: 1178023221}
+  - component: {fileID: 1178023220}
+  - component: {fileID: 1178023219}
+  m_Layer: 7
+  m_Name: Blue_Generation
+  m_TagString: Blue
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1178023219
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178023218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1178023220
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178023218}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 824018a42084b43e1a0be2d28103300e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1178023221
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178023218}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1178023222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178023218}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -0.45, y: 0.123, z: 9.58}
+  m_LocalScale: {x: 0.27316898, y: 0.25699282, z: 0.46153435}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1178209228
 GameObject:
   m_ObjectHideFlags: 0
@@ -9533,9 +9738,9 @@ GameObject:
   - component: {fileID: 1178209232}
   - component: {fileID: 1178209231}
   - component: {fileID: 1178209230}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (39)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9630,9 +9835,9 @@ GameObject:
   - component: {fileID: 1190927161}
   - component: {fileID: 1190927160}
   - component: {fileID: 1190927159}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (27)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9715,6 +9920,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1190927157}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1204141175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1204141179}
+  - component: {fileID: 1204141178}
+  - component: {fileID: 1204141177}
+  - component: {fileID: 1204141176}
+  m_Layer: 7
+  m_Name: Red_Generation
+  m_TagString: Red
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1204141176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204141175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1204141177
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204141175}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 1bddb8986ce1b4a96bdc48a061f52e29, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1204141178
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204141175}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1204141179
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204141175}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 4.76, y: 0.11, z: 3}
+  m_LocalScale: {x: 0.27316892, y: 0.25699282, z: 0.46153423}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1230797861
 GameObject:
   m_ObjectHideFlags: 0
@@ -9726,7 +10028,7 @@ GameObject:
   - component: {fileID: 1230797863}
   - component: {fileID: 1230797862}
   m_Layer: 0
-  m_Name: Generate
+  m_Name: GenerateCubes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9741,9 +10043,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1230797861}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7db2503e62cc543009b19690975902f1, type: 3}
+  m_Script: {fileID: 11500000, guid: 640c45cac4f2e294698d5328908b8ee0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  red_Cube: {fileID: 1204141175}
+  green_Cube: {fileID: 867499847}
+  blue_Cube: {fileID: 1178023218}
+  red_Cube_Parent: {fileID: 616306728}
+  green_Cube_Parent: {fileID: 155266796}
+  blue_Cube_Parent: {fileID: 1982718232}
+  minX: -25
+  maxX: 34
+  minZ: 0
+  maxZ: 65
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!4 &1230797863
 Transform:
   m_ObjectHideFlags: 0
@@ -9771,9 +10086,9 @@ GameObject:
   - component: {fileID: 1231049301}
   - component: {fileID: 1231049300}
   - component: {fileID: 1231049299}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (8)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9856,103 +10171,6 @@ Transform:
   m_Father: {fileID: 155266796}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1 &1239669378
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1239669379}
-  - component: {fileID: 1239669382}
-  - component: {fileID: 1239669381}
-  - component: {fileID: 1239669380}
-  m_Layer: 10
-  m_Name: Toplanacak (41)
-  m_TagString: "K\u0131rm\u0131z\u0131"
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1239669379
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239669378}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 17.200005, y: 0.11, z: 49.7}
-  m_LocalScale: {x: 0.27316892, y: 0.25699282, z: 0.46153423}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1239669380
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239669378}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1239669381
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239669378}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 98103e11bce8940cba7bb311a899aa1c, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1239669382
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1239669378}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1242808950
 GameObject:
   m_ObjectHideFlags: 0
@@ -9965,9 +10183,9 @@ GameObject:
   - component: {fileID: 1242808953}
   - component: {fileID: 1242808952}
   - component: {fileID: 1242808951}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (16)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10062,9 +10280,9 @@ GameObject:
   - component: {fileID: 1244427993}
   - component: {fileID: 1244427992}
   - component: {fileID: 1244427991}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (46)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10270,9 +10488,9 @@ GameObject:
   - component: {fileID: 1256494297}
   - component: {fileID: 1256494296}
   - component: {fileID: 1256494295}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (25)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10589,9 +10807,9 @@ GameObject:
   - component: {fileID: 1286201574}
   - component: {fileID: 1286201573}
   - component: {fileID: 1286201572}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (38)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10674,6 +10892,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286201570}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1289669588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1289669592}
+  - component: {fileID: 1289669591}
+  - component: {fileID: 1289669590}
+  - component: {fileID: 1289669589}
+  m_Layer: 0
+  m_Name: Toplanacak (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &1289669589
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289669588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1289669590
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289669588}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 98103e11bce8940cba7bb311a899aa1c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1289669591
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289669588}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1289669592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289669588}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -0.11}
+  m_LocalScale: {x: 0.2731688, y: 0.25699282, z: 0.461534}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1639503803}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1298634448
 GameObject:
   m_ObjectHideFlags: 0
@@ -10797,9 +11112,9 @@ GameObject:
   - component: {fileID: 1306064105}
   - component: {fileID: 1306064104}
   - component: {fileID: 1306064103}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (37)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11005,9 +11320,9 @@ GameObject:
   - component: {fileID: 1334874037}
   - component: {fileID: 1334874036}
   - component: {fileID: 1334874035}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (29)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11102,9 +11417,9 @@ GameObject:
   - component: {fileID: 1339688589}
   - component: {fileID: 1339688588}
   - component: {fileID: 1339688587}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (34)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11199,9 +11514,9 @@ GameObject:
   - component: {fileID: 1355104671}
   - component: {fileID: 1355104670}
   - component: {fileID: 1355104669}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (29)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11490,9 +11805,9 @@ GameObject:
   - component: {fileID: 1404719159}
   - component: {fileID: 1404719158}
   - component: {fileID: 1404719157}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (30)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12129,9 +12444,9 @@ GameObject:
   - component: {fileID: 1453920335}
   - component: {fileID: 1453920334}
   - component: {fileID: 1453920333}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (33)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12226,9 +12541,9 @@ GameObject:
   - component: {fileID: 1461819436}
   - component: {fileID: 1461819435}
   - component: {fileID: 1461819434}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (19)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12310,103 +12625,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 155266796}
   m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!1 &1466945203
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1466945207}
-  - component: {fileID: 1466945206}
-  - component: {fileID: 1466945205}
-  - component: {fileID: 1466945204}
-  m_Layer: 10
-  m_Name: Toplanacak
-  m_TagString: "Ye\u015Fil"
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!65 &1466945204
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466945203}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1466945205
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466945203}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 7eb6b5c9d52914d18b737d15ef76743f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1466945206
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466945203}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1466945207
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466945203}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.453, y: 0.123, z: 5.23}
-  m_LocalScale: {x: 0.27316892, y: 0.25699282, z: 0.46153423}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1470480150
 GameObject:
@@ -12531,9 +12749,9 @@ GameObject:
   - component: {fileID: 1482235515}
   - component: {fileID: 1482235514}
   - component: {fileID: 1482235513}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (31)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12628,9 +12846,9 @@ GameObject:
   - component: {fileID: 1489946965}
   - component: {fileID: 1489946964}
   - component: {fileID: 1489946963}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (3)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12836,9 +13054,9 @@ GameObject:
   - component: {fileID: 1496528052}
   - component: {fileID: 1496528051}
   - component: {fileID: 1496528050}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (1)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12933,9 +13151,9 @@ GameObject:
   - component: {fileID: 1513473943}
   - component: {fileID: 1513473942}
   - component: {fileID: 1513473941}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (23)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13571,9 +13789,9 @@ GameObject:
   - component: {fileID: 1617186556}
   - component: {fileID: 1617186555}
   - component: {fileID: 1617186554}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (24)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13668,9 +13886,9 @@ GameObject:
   - component: {fileID: 1619951949}
   - component: {fileID: 1619951948}
   - component: {fileID: 1619951947}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (27)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13753,6 +13971,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619951945}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1639503802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1639503803}
+  m_Layer: 0
+  m_Name: ToplamaYeri (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1639503803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639503802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.6380001, z: -0.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1289669592}
+  m_Father: {fileID: 8145114212001553481}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1658217901
 GameObject:
   m_ObjectHideFlags: 0
@@ -13765,9 +14015,9 @@ GameObject:
   - component: {fileID: 1658217904}
   - component: {fileID: 1658217903}
   - component: {fileID: 1658217902}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (17)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13960,9 +14210,9 @@ GameObject:
   - component: {fileID: 1696281974}
   - component: {fileID: 1696281973}
   - component: {fileID: 1696281972}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (30)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14521,103 +14771,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1755958579}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1834868027
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1834868028}
-  - component: {fileID: 1834868031}
-  - component: {fileID: 1834868030}
-  - component: {fileID: 1834868029}
-  m_Layer: 10
-  m_Name: Toplanacak (21)
-  m_TagString: Mavi
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1834868028
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834868027}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -5.97, y: 0.123, z: 9.58}
-  m_LocalScale: {x: 0.27316898, y: 0.25699282, z: 0.46153435}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1834868029
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834868027}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1834868030
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834868027}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 3933e4ff7c5d847fe9410dc58f58dc2f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1834868031
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1834868027}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1835934129
 GameObject:
   m_ObjectHideFlags: 0
@@ -14838,9 +14991,9 @@ GameObject:
   - component: {fileID: 1862866817}
   - component: {fileID: 1862866816}
   - component: {fileID: 1862866815}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (2)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15046,9 +15199,9 @@ GameObject:
   - component: {fileID: 1887203388}
   - component: {fileID: 1887203387}
   - component: {fileID: 1887203386}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (20)
-  m_TagString: "K\u0131rm\u0131z\u0131"
+  m_TagString: Red
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15143,9 +15296,9 @@ GameObject:
   - component: {fileID: 1896916410}
   - component: {fileID: 1896916409}
   - component: {fileID: 1896916408}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (34)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15917,9 +16070,9 @@ GameObject:
   - component: {fileID: 2024620748}
   - component: {fileID: 2024620747}
   - component: {fileID: 2024620746}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (35)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16014,9 +16167,9 @@ GameObject:
   - component: {fileID: 2052522712}
   - component: {fileID: 2052522711}
   - component: {fileID: 2052522710}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (25)
-  m_TagString: Mavi
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16612,9 +16765,9 @@ GameObject:
   - component: {fileID: 2128874121}
   - component: {fileID: 2128874120}
   - component: {fileID: 2128874119}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (6)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16709,9 +16862,9 @@ GameObject:
   - component: {fileID: 2136668436}
   - component: {fileID: 2136668435}
   - component: {fileID: 2136668434}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Toplanacak (15)
-  m_TagString: "Ye\u015Fil"
+  m_TagString: Green
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16824,9 +16977,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 2138917512}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae63b225cb2e3438ba07d3c3744a05cd, type: 3}
+  m_Script: {fileID: 11500000, guid: 6390e8120838a734da3d7f4217135193, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetsParent: {fileID: 155266795}
+  targets: []
+  collect_Main_Parrent: {fileID: 2000278634}
+  prev_Object: {fileID: 1608515590}
+  cubes: []
+  ropes:
+  - {fileID: 254106694}
+  - {fileID: 1045559333}
+  - {fileID: 2119964325}
+  radius: 2
+  character_Enum: 2
 --- !u!136 &2138917514
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -21705,24 +21869,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
---- !u!114 &6519707878000633445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8145114212001553483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2ca57dd58db048eb88061db0ac89ec5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turnSpeed: 6
-  speed: 6
-  lerpValue: 3
-  layer:
-    serializedVersion: 2
-    m_Bits: 55
 --- !u!4 &6568763123192560066
 Transform:
   m_ObjectHideFlags: 0
@@ -22898,6 +23044,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8145114212512726536}
+  - {fileID: 1639503803}
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22913,7 +23060,7 @@ GameObject:
   - component: {fileID: 8145114212001553480}
   - component: {fileID: 6519707878000633444}
   - component: {fileID: 6519707878000633441}
-  - component: {fileID: 6519707878000633445}
+  - component: {fileID: 8145114212001553484}
   m_Layer: 6
   m_Name: Character
   m_TagString: Untagged
@@ -22921,6 +23068,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8145114212001553484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8145114212001553483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2ca57dd58db048eb88061db0ac89ec5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collect_Main_Parrent: {fileID: 1639503803}
+  prev_Object: {fileID: 1289669588}
+  cubes: []
+  turnSpeed: 6
+  speed: 6
+  lerpValue: 3
+  layer:
+    serializedVersion: 2
+    m_Bits: 55
 --- !u!4 &8145114212512726536
 Transform:
   m_ObjectHideFlags: 0
